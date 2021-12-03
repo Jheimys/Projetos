@@ -1,6 +1,7 @@
 /* 
 Aula 2: efeito degrader ---> site css gradiente 
 Aula 3: Modo Responsivo, Profile, Social Icons
+Aula 4: Introdução ao Flexbox
 
 */
 
@@ -46,6 +47,17 @@ h2{
     margin-top: 20px;
     text-align: center;
 }
+
+/* quando coloco felx em um elemento pai todos os elementos filhos vão ficar lado a lado*/
+.social{
+    display: flex;
+   /* justify-content: center; só funciona quando tem o flex, que diz justifeque esse 
+    conteudo no centro */
+    justify-content: space-around;
+    list-style: none; /* tira os bullets das listas*/
+    margin: 20px 0;
+}
+
 
 .social img{
     width: 33px;
