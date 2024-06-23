@@ -2,6 +2,7 @@
 Aula 2: efeito degrader ---> site css gradiente 
 Aula 3: Modo Responsivo, Profile, Social Icons
 Aula 4: Introdução ao Flexbox
+Aula 5: Caixas, Inline vs Block, Span
 
 */
 
@@ -62,3 +63,31 @@ h2{
 .social img{
     width: 33px;
 }
+
+.links-list{
+    list-style: none;
+}
+
+.links-list li{
+    margin: 15px 20px;
+   
+}
+
+.links-list li a{
+    /* as listas por padrão são inline para colocar o background devemos 
+    mudar para o display block */
+    display: block;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    text-decoration: none;
+    color:rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links-list li a span{
+    display: block;
+    color: gray;
+    margin-top: 10px;
+}
+
